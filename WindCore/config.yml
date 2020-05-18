@@ -1,0 +1,10 @@
+messages:
+
+  clearchat:
+    message: "&bWindCore&f: %arg0% cleared the chat!"
+
+  nickname:
+    invalid-usage: "&bWindCore&f: Correct usage is /nickname <display name>."
+    nickname-set-to: "&bWindCore&f: Your nickname has been set to %arg0%&r"
+    nickname-too-long: "&bWindCore&f: Your nickname can not exceed 16 characters!"
+    nickname-resetted: "&bWindCore&f: Your nickname has been resetted."

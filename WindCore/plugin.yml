@@ -1,0 +1,17 @@
+main: com.windinn.windcore.WindCore
+name: WindCore
+version: 0.1
+api-version: 1.15
+author: Windinn
+description: The must-have for all servers!
+commands:
+  
+  clearchat:
+    description: Clear the chat.
+    permission: windcore.clearchat
+    aliases: [cchat]
+
+  nickname:
+    description: Change your nickname.
+    permission: windcore.nickname
+    aliases: nick
