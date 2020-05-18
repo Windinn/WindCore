@@ -46,7 +46,7 @@ public class NicknameCommand implements CommandExecutor {
 				player.sendMessage(ChatColor
 						.translateAlternateColorCodes('&',
 								plugin.getConfig().getString("messages.nickname.nickame-set-to",
-										"&bWindCore&f: Your nickname has been set to %arg0%&r"))
+										"&bWindCore&f: Your nickname has been set to %arg0%"))
 						.replace("%arg0%", nickname));
 			}
 
