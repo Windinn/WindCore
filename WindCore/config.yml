@@ -6,6 +6,9 @@ messages:
   clearchat:
     message: "&bWindCore&f: %arg0% cleared the chat!"
 
+  discord:
+    message: "&bWindCore&f: The discord of the server is < insert URL in config >"
+
   feed:
     feed-yourself: "&bWindCore&f: You have been feeded!"
     feeded-player: "&bWindCore&f: You feeded %arg0%"
@@ -37,3 +40,12 @@ messages:
   reply:
     invalid-usage: "&bWindCore&f: Correct usage is /reply <message>"
     nobody-to-reply: "&bWindCore&f: You have nobody to reply to!"
+
+  twitter:
+    message: "&bWindCore&f: The Twitter of the server is < insert URL in config >"
+
+  website:
+    message: "&bWindCore&f: The website of the server is < insert URL in config >"
+
+  youtube:
+    message: "&bWindCore&f: The YouTube channel of the server is < insert URL in config >"

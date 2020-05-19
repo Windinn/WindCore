@@ -1,6 +1,6 @@
 main: com.windinn.windcore.WindCore
 name: WindCore
-version: BETA-0.5
+version: BETA-0.6
 api-version: 1.15
 author: Windinn
 description: The must-have for all servers!
@@ -10,6 +10,11 @@ commands:
     description: Clear the chat.
     permission: windcore.clearchat
     aliases: cchat
+
+  discord:
+    description: Check the server discord.
+    permission: windcore.discord
+    aliases: [disc]
 
   feed:
     description: Feed yourself or a player.
@@ -42,3 +47,18 @@ commands:
     description: Reply to your latest message.
     permission: windcore.reply
     aliases: [r]
+
+  twitter:
+    description: Check the Twitter of the server.
+    permission: windcore.twitter
+    aliases: [tweet]
+
+  website:
+    description: Check the website of the server.
+    permissiond: windcore.website
+    aliases: [web, site, internet, url]
+
+  youtube:
+    description: Check the YouTube channel of the server.
+    permission: windcore.youtube
+    aliases: [yt]
