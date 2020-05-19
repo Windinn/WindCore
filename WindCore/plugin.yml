@@ -1,6 +1,6 @@
 main: com.windinn.windcore.WindCore
 name: WindCore
-version: BETA-0.4
+version: BETA-0.5
 api-version: 1.15
 author: Windinn
 description: The must-have for all servers!
@@ -28,7 +28,17 @@ commands:
     permission: windcore.invsee
     aliases: invsee
 
+  msg:
+    description: Send a private message to a player.
+    permission: windcore.msg
+    aliases: [w, whisper, tell]
+
   nickname:
     description: Change your nickname.
     permission: windcore.nickname
     aliases: nick
+
+  reply:
+    description: Reply to your latest message.
+    permission: windcore.reply
+    aliases: [r]

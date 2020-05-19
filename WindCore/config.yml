@@ -25,8 +25,15 @@ messages:
   inventorysee:
     cant-see-own-inventory: "&bWindCore&f: You can't check your own inventory."
 
+  msg:
+    invalid-usage: "&bWindCore&f: Correct usage is /msg <player> <message>"
+
   nickname:
-    invalid-usage: "&bWindCore&f: Correct usage is /nickname <display name>."
+    invalid-usage: "&bWindCore&f: Correct usage is /nickname <display name>"
     nickname-set-to: "&bWindCore&f: Your nickname has been set to %arg0%"
     nickname-too-long: "&bWindCore&f: Your nickname can not exceed 16 characters!"
     nickname-resetted: "&bWindCore&f: Your nickname has been resetted."
+
+  reply:
+    invalid-usage: "&bWindCore&f: Correct usage is /reply <message>"
+    nobody-to-reply: "&bWindCore&f: You have nobody to reply to!"

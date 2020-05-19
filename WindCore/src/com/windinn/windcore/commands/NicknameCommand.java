@@ -20,9 +20,8 @@ public class NicknameCommand implements CommandExecutor {
 			Player player = (Player) sender;
 
 			if (args.length == 0) {
-				player.sendMessage(ChatColor.translateAlternateColorCodes('&',
-						plugin.getConfig().getString("messages.nickname.invalid-usage",
-								"&bWindCore&f: Correct usage is /nickname <display name>.")));
+				player.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString(
+						"messages.nickname.invalid-usage", "&bWindCore&f: Correct usage is /nickname <display name>")));
 			} else {
 				String nickname = args[0];
 
