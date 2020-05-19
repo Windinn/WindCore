@@ -1,6 +1,6 @@
 main: com.windinn.windcore.WindCore
 name: WindCore
-version: 0.3
+version: BETA-0.4
 api-version: 1.15
 author: Windinn
 description: The must-have for all servers!

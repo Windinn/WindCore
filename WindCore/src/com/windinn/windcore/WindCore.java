@@ -8,11 +8,15 @@ import com.windinn.windcore.commands.FlyCommand;
 import com.windinn.windcore.commands.HealCommand;
 import com.windinn.windcore.commands.InventorySeeCommand;
 import com.windinn.windcore.commands.NicknameCommand;
+import com.windinn.windcore.utils.VersionUpdater;
 
 public class WindCore extends JavaPlugin {
 
 	public void onEnable() {
 		super.onEnable();
+
+		VersionUpdater updater = new VersionUpdater();
+		updater.checkUpdate("78973");
 
 		this.saveDefaultConfig();
 
