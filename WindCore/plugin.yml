@@ -1,6 +1,6 @@
 main: com.windinn.windcore.WindCore
 name: WindCore
-version: 0.2
+version: 0.3
 api-version: 1.15
 author: Windinn
 description: The must-have for all servers!
@@ -15,9 +15,18 @@ commands:
     description: Feed yourself or a player.
     permission: windcore.feed
 
+  fly:
+    description: Toggle flight mode.
+    permission: windcore.fly
+
   heal:
     description: Heal yourself or a player.
     permission: windcore.heal
+
+  inventorysee:
+    description: Check the inventory of a player.
+    permission: windcore.invsee
+    aliases: invsee
 
   nickname:
     description: Change your nickname.

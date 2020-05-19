@@ -11,10 +11,19 @@ messages:
     feeded-player: "&bWindCore&f: You feeded %arg0%"
     feeded-by-player: "&bWindCore&f: You have been feeded by %arg0%"
 
+  fly:
+    can-now-fly: "&bWindCore&f: You can now fly."
+    can-not-longer-fly: "&bWindCore&f: You can not longer fly."
+    player-can-now-fly: "&bWindCore&f: %arg0% can now fly."
+    player-can-not-longer-fly: "&bWindCore&f: %arg0% can not longer fly."
+
   heal:
     heal-yourself: "&bWindCore&f: You have been healed!"
     healed-player: "&bWindCore&f: You healed %arg0%"
     healed-by-player: "&bWindCore&f: You have been healed by %arg0%"
+
+  inventorysee:
+    cant-see-own-inventory: "&bWindCore&f: You can't check your own inventory."
 
   nickname:
     invalid-usage: "&bWindCore&f: Correct usage is /nickname <display name>."
